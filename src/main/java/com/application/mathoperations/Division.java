@@ -3,7 +3,7 @@ package com.application.mathoperations;
 
 public class Division implements MathOperations {
 
-    public float mathOperation (int firstInt, int secondInt) {
+    public float mathOperation (Integer firstInt, Integer secondInt) {
 
         if (secondInt != 0) {
             float divisionResult = Float.valueOf(firstInt) / Float.valueOf(secondInt);
